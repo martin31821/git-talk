@@ -193,6 +193,46 @@ $ git clone https://github.com/octocat/Hello-World.git -b test Hello-World-test<
 
 <!--Willys part order 200->300-->
 
+<slide order="200" scale="1" title="Rewrite History">
+    <ul>
+        <li><b>!Danger!</b> advanced tpoic</li>
+        <li>if local history changes it needs to be force pushed</li>
+        <li>force pushing is not good</li>
+        <li>will result in other peoples local copy being out of sync with the remote</li>
+    </ul>
+</slide>
+
+<slide order="201" scale="1" title="How to rewrite history?">
+    Easiest way is to use:<br>
+
+    <pre>% git remote -v
+    origin https://github.com/elementary/calendar.git (fetch)
+    origin https://github.com/elementary/calendar.git (push)
+    % git rebase -i b55e6eb
+    Successfully rebased and updated refs/heads/master.</pre>
+
+</slide>
+
+<slide order="220" scale="1" title="Fix">
+NYI
+</slide>
+
+<slide order="230" scale="1" title="Reword">
+
+</slide>
+
+<slide order="240" scale="1" title="Drop">
+
+</slide>
+
+<slide order="250" scale="1" title="Reset/Revert history">
+
+</slide>
+
+<slide order="270" scale="1" title="Cherrypick">
+
+</slide>
+
 <!--end of willys part-->
 
 <slide
